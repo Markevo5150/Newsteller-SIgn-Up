@@ -1,0 +1,32 @@
+.main-container {
+  background: var(--White);
+  margin: auto;
+  width: 400px;
+}
+.image {
+  background: url(../assets/images/illustration-sign-up-mobile.svg);
+  width: inherit;
+  height: 300px;
+  background-size: cover;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  height: 350px;
+}
+.info {
+  margin-top: 1rem;
+}
+.productInfo {
+  display: flex;
+  flex-direction: column;
+}
+.product {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0 0.8rem 0;
+}
+.detail {
+  margin-top: 6px;
+}
